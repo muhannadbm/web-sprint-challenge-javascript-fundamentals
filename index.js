@@ -16,7 +16,7 @@ function myFunction() {
 myFunction();
 
 //🚀🚀🚀 ⬇️ 📝 Explanation ⬇️ 📝 🚀🚀🚀: 
-'nestedfunction can access internal variable because they are in the same scope which is myFunction, this is what we call as Closure, it happens when an inner function reaches out for a variable outside.'
+'nestedfunction can access internal variable because they are in the same scope which is myFunction, this is what we call as Closure, it happens when an inner function reaches out for a variable from parent function or scope.'
 
 
 
@@ -31,10 +31,13 @@ For example, `summation(4)` should return 10 because 1+2+3+4 is 10. Note, you ma
 function summation(number) {
   /*Your Code Here*/
   let total = 0;
-  for(let i =0; i <= number; i++){
-    total = total + i;
+  function add(){
+    for(let i =0; i <= number; i++){
+      total = total + i;
+    }
+    return total;
   }
-  return total;
+  return add();
   }
  
 

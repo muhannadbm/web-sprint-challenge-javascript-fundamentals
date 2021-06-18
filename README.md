@@ -29,9 +29,17 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
 
+forEach doesn't return a new array, while map returns an array by default
+forEach doesn't necessarily need a return statement while map does.
+forEach could be used to manipulate the original array, while map could not.
+
 2. Explain the difference between a callback and a higher order function.
 
+callback function is the function that is being pass to another function as a parameter while higher order function is the function that calls the callback function.
+
 3. Can you explain what a closure is and how you used it in the counter function? 
+
+it happens when a function reaches out for a variable from parent function or scope., the 
 
 4. Describe the four principles of the 'this' keyword.
 
