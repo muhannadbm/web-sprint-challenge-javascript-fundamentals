@@ -39,11 +39,18 @@ callback function is the function that is being pass to another function as a pa
 
 3. Can you explain what a closure is and how you used it in the counter function? 
 
-it happens when a function reaches out for a variable from parent function or scope., the 
+it happens when a function reaches out for a variable from parent function or scope., the inner add function reaches out for total and number variables in the outer summation function so we have 2 closures in this case.
 
 4. Describe the four principles of the 'this' keyword.
 
+1-Window binding, in this case this will refer to the console object.
+2- Implicit binding, when we have a dot before function call the object before the dot is this.
+3- New binding, happens with constructors, this refers to the instance of the object created by the constructor.
+4- Explicit binding when ever we use call or apply method, this is explicitly defined.
+
 5. Why do we need super() in an extended class?
+
+because super keyword inherits all attributes and methods from a parent class.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
