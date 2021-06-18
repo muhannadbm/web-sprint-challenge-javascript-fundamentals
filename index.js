@@ -16,7 +16,7 @@ function myFunction() {
 myFunction();
 
 //🚀🚀🚀 ⬇️ 📝 Explanation ⬇️ 📝 🚀🚀🚀: 
-'nestedfunction can access internal variable because they are in the same scope which is myFunction, this is what we call as Closure.'
+'nestedfunction can access internal variable because they are in the same scope which is myFunction, this is what we call as Closure, it happens when an inner function reaches out for a variable outside.'
 
 
 
